@@ -94,8 +94,8 @@ int main() try
     int frames_without_hdr_metadata_params = 0;
 
     // init parameters to set view's window 
-    unsigned width = 1280;
-    unsigned height = 720;
+    unsigned width = 1850; // was 1280x720  => 1850x1024
+    unsigned height = 1024;
     std::string title = "RealSense HDR Example";
     unsigned tiles_in_row = 4;
     unsigned tiles_in_col = 2;
